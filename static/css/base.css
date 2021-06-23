@@ -51,6 +51,10 @@ body {
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
 }
+
+.bg-black {
+    background: #333 !important;
+}
 /* Slightly larger container on x1 screen */
 @media(min-width: 1200px){
     .container{
