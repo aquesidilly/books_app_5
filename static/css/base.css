@@ -55,6 +55,16 @@ body {
 .bg-black {
     background: #333 !important;
 }
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
 /* Slightly larger container on x1 screen */
 @media(min-width: 1200px){
     .container{
