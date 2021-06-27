@@ -3,9 +3,9 @@ from django.db import models
 class Category(models.Model):
 
     class Meta:
-        Verbose_name_plural='Categories'
+        verbose_name_plural='Categories'
         
-    name = models.Charfield(max_length=245)
+    name = models.CharField(max_length=245)
     friendly_name = models.CharField(max_length=245, null=True, blank=True)
 
     def __str__(self):
