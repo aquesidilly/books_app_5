@@ -3,19 +3,19 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-books-link" data-toggle="dropdown-menu" aria-haspopup="true" aria-expanded="false">All Books</a>
             <div class="dropdown-menu border-0" aria-labelledby="all-books-link">
-               <a href="{% url 'books' %}?sort=rating&direction=asc" class="dropdown-item">Rating</a>
-               <a href="{% url 'books' %}?sort=category&direction=asc" class="dropdown-item">Category</a>
-               <a href="{% url 'books' %}" class="dropdown-item">All Books</a>
-               <a href="{% url 'books' %}?sort=price&direction=asc" class="dropdown-item">Price</a>
+               <a href="{% url 'products' %}?sort=rating&direction=asc" class="dropdown-item">Rating</a>
+               <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">Category</a>
+               <a href="{% url 'products' %}" class="dropdown-item">All Books</a>
+               <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">Price</a>
             </div>
         </li>
          <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-product-link" data-toggle="dropdown-menu" aria-haspopup="true" aria-expanded="false">Mathematics & Science Books</a>
             <div class="dropdown-menu border-0" aria-labelledby="all-books-link">
-                <a href="{% url 'books' %}?category=book title" class="dropdown-item">Book Title:</a>
-                <a href="{% url 'books' %}?category=author" class="dropdown-item">Author:</a>
-                <a href="{% url 'books' %}?category=description" class="dropdown-item">Description:</a>
-                <a href="{% url 'books' %}?category=price" class="dropdown-item">Price:</a>
+                <a href="{% url 'products' %}?category=book title" class="dropdown-item">Book Title:</a>
+                <a href="{% url 'products' %}?category=author" class="dropdown-item">Author:</a>
+                <a href="{% url 'products' %}?category=description" class="dropdown-item">Description:</a>
+                <a href="{% url 'products' %}?category=price" class="dropdown-item">Price:</a>
             </div>
         </li>
          <li class="nav-item dropdown">
