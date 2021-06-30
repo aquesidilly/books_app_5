@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body { 
-    background-image: url()no-repeat center center fixed;
+    background-image: url('/media/still_life_pencil.jpg')no-repeat center center fixed;
     background-size: cover;
     height: calc();
     color: #00abff;
